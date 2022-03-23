@@ -704,10 +704,10 @@ p.text {
   position: relative;
   z-index: 2;
 }
-.banner .hero-area .banner-content {
+/* .banner .hero-area .banner-content {
   -webkit-transform: translateY(60px);
   transform: translateY(60px);
-}
+} */
 .banner .hero-area .banner-content h3.subtitle {
   color: #6342ff;
 }

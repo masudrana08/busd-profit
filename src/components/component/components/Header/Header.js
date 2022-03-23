@@ -116,7 +116,7 @@ export default function Header() {
                                                     </form>
                                                     <span className="rate">Minimum 0.05 BNB</span>
                                                 </div>
-                                                <div className="exchange-box">
+                                                {/* <div className="exchange-box">
                                                     <div className="selector">
                                                         <p className="text">Deposit Period</p>
                                                     </div>
@@ -129,7 +129,7 @@ export default function Header() {
                                                             </select><div className="nice-select select-bar" tabIndex="0"><span className="current">1 year</span><ul className="list"><li data-value="" className="option selected focus">1 year</li><li data-value="" className="option">2 year</li><li data-value="" className="option">3 year</li></ul></div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
 
                                                 <div className="content">
                                                     <div className="text-box">
