@@ -633,19 +633,79 @@ p.text {
   position: relative;
   z-index: 1;
 }
-.banner .bg-sape {
+.banner .man .bg-sape-1 {
   position: absolute;
-  bottom: 30px;
-  left: 0px;
+  bottom: 0px;
+  right: -110px;
   content: "";
-  width: 60%;
+  max-width: unset;
 }
-.banner .boxdot {
+.banner .man .coin-1,
+.banner .man .coin-2,
+.banner .man .coin-3,
+.banner .man .coin-4,
+.banner .man .coin-5,
+.banner .man .coin-6,
+.banner .man .coin-7,
+.banner .man .coin-8 {
   position: absolute;
-  top: 10%;
-  left: 0%;
+  top: 65%;
+  right: 240px;
   content: "";
-  width: 60%;
+  max-width: unset;
+  -webkit-animation: coin-rotate 2s ease infinite;
+          animation: coin-rotate 2s ease infinite;
+}
+.banner .man .coin-2 {
+  -webkit-animation: coin-rotate 3s ease-in infinite;
+          animation: coin-rotate 3s ease-in infinite;
+}
+.banner .man .coin-3 {
+  -webkit-animation: coin-rotate 4s ease-out infinite;
+          animation: coin-rotate 4s ease-out infinite;
+}
+.banner .man .coin-4 {
+  -webkit-animation: coin-rotate 5s ease-in-out infinite;
+          animation: coin-rotate 5s ease-in-out infinite;
+}
+.banner .man .coin-5 {
+  -webkit-animation: coin-rotate 6s ease infinite;
+          animation: coin-rotate 6s ease infinite;
+}
+.banner .man .coin-6 {
+  -webkit-animation: coin-rotate 7s ease-in infinite;
+          animation: coin-rotate 7s ease-in infinite;
+}
+.banner .man .coin-7 {
+  -webkit-animation: coin-rotate 8s ease-out infinite;
+          animation: coin-rotate 8s ease-out infinite;
+}
+.banner .man .coin-8 {
+  -webkit-animation: coin-rotate 9s ease-in-out infinite;
+          animation: coin-rotate 9s ease-in-out infinite;
+}
+.banner .hero-area {
+  position: relative;
+  z-index: 2;
+}
+.banner .hero-area .banner-content {
+  /* -webkit-transform: translateY(60px);
+  transform: translateY(60px); */
+}
+.banner .hero-area .banner-content h3.subtitle {
+  color: #6342ff;
+}
+.banner .hero-area .banner-content h1.head {
+  color: #33276a;
+  font-weight: 700;
+  padding: 9px 0 0px;
+}
+.banner .hero-area .banner-content p.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #4f457c;
 }
 .banner .hero-area .banner-content .vide {
   margin-top: 38px;
@@ -700,22 +760,6 @@ p.text {
   line-height: 24px;
   font-weight: 600;
 }
-.banner .hero-area {
-  position: relative;
-  z-index: 2;
-}
-.banner .hero-area .banner-content {
-  -webkit-transform: translateY(60px);
-  transform: translateY(60px);
-}
-.banner .hero-area .banner-content h3.subtitle {
-  color: #6342ff;
-}
-.banner .hero-area .banner-content h1.head {
-  color: #33276a;
-  font-weight: 700;
-  padding: 23px 0 13px;
-}
 .banner .hero-area .right-box {
   background-color: #fff;
   border-radius: 20px;
@@ -756,170 +800,9 @@ p.text {
 }
 .banner .hero-area .right-box .tab-content .exchange .exchange-box {
   margin-top: 10px;
-  padding: 20px 20px 20px;
+  padding: 0px 20px 20px;
   border-radius: 20px;
   background-color: rgba(201, 205, 255, 0.2);
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 8px;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector p.text {
-  font-size: 18px;
-  color: #6342ff;
-  text-transform: capitalize;
-  line-height: 1.556;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin img {
-  margin-right: 5px;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin .language-select .nice-select {
-  border: 0;
-  width: 85px;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 600;
-  color: #777777;
-  height: auto;
-  padding: 3px 0px 0px;
-  background: transparent;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin .language-select .nice-select:after {
-  border-bottom: 2px solid #777777;
-  border-right: 2px solid #777777;
-  width: 14px;
-  height: 14px;
-  top: 40%;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin .language-select .nice-select .list {
-  width: 100px;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin .language-select .nice-select .list li {
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 600;
-  color: #777777;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .selector .coin span.current {
-  color: #777777;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input {
-  font-family: "Open Sans", sans-serif;
-  border: 1px solid #beaeff;
-  background-color: #dfe1fe;
-  border-radius: 30px;
-  padding: 10px 20px 10px;
-  font-size: 24px;
-  color: #4938a2;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-webkit-input-placeholder {
-  font-size: 24px;
-  color: #4938a2;
-  font-family: "Open Sans", sans-serif;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-moz-placeholder {
-  font-size: 24px;
-  color: #4938a2;
-  font-family: "Open Sans", sans-serif;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input:-ms-input-placeholder {
-  font-size: 24px;
-  color: #4938a2;
-  font-family: "Open Sans", sans-serif;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-ms-input-placeholder {
-  font-size: 24px;
-  color: #4938a2;
-  font-family: "Open Sans", sans-serif;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::placeholder {
-  font-size: 24px;
-  color: #4938a2;
-  font-family: "Open Sans", sans-serif;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time {
-  border: 1px solid #beaeff;
-  background-color: white;
-  background-color: #dfe1fe;
-  border-radius: 30px;
-  padding: 0px 20px 0px;
-  width: 100%;
-  height: 54px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select .nice-select {
-  border: 0;
-  width: 100%;
-  font-size: 24px;
-  line-height: 34px;
-  font-family: "Open Sans", sans-serif;
-  color: #4938a2;
-  font-weight: 400;
-  height: auto;
-  padding: 0px 0px 0px;
-  background: transparent;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select .nice-select:after {
-  border-bottom: 2px solid #777777;
-  border-right: 2px solid #777777;
-  width: 14px;
-  height: 14px;
-  top: 40%;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select .nice-select span.current {
-  font-size: 24px;
-  line-height: 34px;
-  font-family: "Open Sans", sans-serif;
-  color: #4938a2;
-  font-weight: 400;
-  text-transform: lowercase;
-  padding-top: 0px;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select .nice-select .list {
-  width: 100px;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time .language-select .nice-select .list li {
-  text-align: center;
-  font-size: 24px;
-  line-height: 34px;
-  font-family: "Open Sans", sans-serif;
-  color: #4938a2;
-  font-weight: 400;
-}
-.banner .hero-area .right-box .tab-content .exchange .exchange-box .time span.current {
-  color: #777777;
 }
 .banner .hero-area .right-box .tab-content .exchange .exchange-box span {
   font-family: "Open Sans", sans-serif;
@@ -930,11 +813,54 @@ p.text {
   line-height: 1.75;
   padding-top: 6px;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .text-box {
-  padding: 30px 0px 20px;
-  border-bottom: 1px solid #beaeff;
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input {
+  height: 54px;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #beaeff;
+  background-color: #dfe1fe;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #9c91d5;
+  width: 100%;
+  padding: 10px 10px 10px 25px;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .text-box p.text {
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #9c91d5;
+  font-family: "Open Sans", sans-serif;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-moz-placeholder {
+  font-size: 18px;
+  color: #9c91d5;
+  font-family: "Open Sans", sans-serif;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #9c91d5;
+  font-family: "Open Sans", sans-serif;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #9c91d5;
+  font-family: "Open Sans", sans-serif;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group input::placeholder {
+  font-size: 18px;
+  color: #9c91d5;
+  font-family: "Open Sans", sans-serif;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #beaeff;
+  background-color: #dfe1fe;
+  border-radius: 30px;
+  padding: 0px 0px 0px 25px;
+  font-size: 18px;
+  color: #9c91d5;
+  height: 54px;
+  min-width: 154px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -945,45 +871,66 @@ p.text {
   -ms-flex-align: center;
   align-items: center;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .text-box p.text span.one {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  color: #4938a2;
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .text-box p.text span.two {
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin img {
+  margin-top: 7px;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin .language-select {
+  width: 100px;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin .language-select .nice-select {
+  margin-top: -5px;
+  width: 100%;
+  border: 0;
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #4938a2;
+  color: #777777;
+  height: auto;
+  background: transparent;
+  padding: 0px 30px 0px 10px;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .earn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 20px 0px 10px;
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin .language-select .nice-select:after {
+  border-bottom: 2px solid #777777;
+  border-right: 2px solid #777777;
+  width: 14px;
+  height: 14px;
+  top: 40%;
 }
-.banner .hero-area .right-box .tab-content .exchange .content .earn p.text {
-  font-size: 16px;
-  line-height: 26px;
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin .language-select .nice-select .list {
+  width: 100px;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin .language-select .nice-select .list li {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 600;
-  color: #4938a2;
+  color: #777777;
+}
+.banner .hero-area .right-box .tab-content .exchange .exchange-box .form-group .selector .coin span.current {
+  color: #777777;
+}
+.level
+{
+  color: #6342ff;
 }
 .banner .hero-area .right-box .tab-content .exchange .button-box {
-  margin-top: 20px;
+  margin: 20px 30px 0px 30px;
 }
 .banner .hero-area .right-box .tab-content .exchange .button-box a.button.button-1 {
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 7px 13px 0px rgba(153, 99, 255, 0.59);
-          box-shadow: 0px 7px 13px 0px rgba(153, 99, 255, 0.59);
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 7px 13px 0px rgba(255, 99, 208, 0.59);
+          box-shadow: 0px 7px 13px 0px rgba(240, 248, 126, 0.59);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   width: 100%;
 }

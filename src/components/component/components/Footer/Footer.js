@@ -52,7 +52,7 @@ export default function Footer() {
                   <div className="footer-box">
                     <h4 className="lasthead">Contacts</h4>
                     <ul className="footer-link">
-                      <li> support@busdprofit.com </li>
+                      <li> support@BNBprofit.com </li>
                     
                     </ul>
                   </div>

@@ -298,14 +298,14 @@
   },
   {
     "inputs": [],
-    "name": "BUSDRewardsFeeBuy",
+    "name": "BNBRewardsFeeBuy",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "BUSDRewardsFeeSell",
+    "name": "BNBRewardsFeeSell",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
@@ -674,7 +674,7 @@
     "inputs": [
       { "internalType": "uint256", "name": "value", "type": "uint256" }
     ],
-    "name": "setBUSDRewardsFee",
+    "name": "setBNBRewardsFee",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
