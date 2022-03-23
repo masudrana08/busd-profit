@@ -20,7 +20,7 @@ export default function Faq() {
                                 <h4 className="lasthead">How safe is it?</h4>
                                 <h2 className="title">It's Really Easy!</h2>
                                 <p className="text">
-                                    BUSD Profit is a smart contract which runs on BSC blockchain. No one can modify the source code or delete the smart contract. That means BUSD Profit is totally decentralized and autonomous.
+                                    BNB Profit is a smart contract which runs on BSC blockchain. No one can modify the source code or delete the smart contract. That means BNB Profit is totally decentralized and autonomous.
                                 </p>
                                 <a href="#" className="button button-1">Ask a question</a>
                             </div>
@@ -41,7 +41,7 @@ export default function Faq() {
                                         <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
                                             data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                BUSD Profit is based on community funds support. Everyone in this community are investing and helping each other. By investing you get 7% ROI Daily. To increase their earnings and also to make sure that the contract never runs out of balance Referral Program is there.
+                                                BNB Profit is based on community funds support. Everyone in this community are investing and helping each other. By investing you get 7% ROI Daily. To increase their earnings and also to make sure that the contract never runs out of balance Referral Program is there.
                                             </div>
                                         </div>
                                     </div>

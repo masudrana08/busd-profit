@@ -16,7 +16,7 @@ export default function Transfer() {
                     <div className="row align-items-center justify-content-between">
                         <div className="col-xl-12">
                             <div className="section-head wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
-                                <h4 className="lasthead">Why choose BUSD Profit?</h4>
+                                <h4 className="lasthead">Why choose BNB Profit?</h4>
 
                             </div>
                             <h2 className="title">Referral Program

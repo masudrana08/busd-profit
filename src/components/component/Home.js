@@ -34,8 +34,8 @@ const Home = () => {
 
         const reword = await contract.methods.withdrawableDividendOf(acc).call({ from: acc })
         console.log("my reword is ", reword)
-        document.getElementById("connect").innerHTML = `${reword} BUSD(Reward)`
-        document.getElementById("fetch_reword").innerHTML = `${reword} BUSD(Reward)`
+        document.getElementById("connect").innerHTML = `${reword} BNB(Reward)`
+        document.getElementById("fetch_reword").innerHTML = `${reword} BNB(Reward)`
         document.getElementById("fetch_reword").style.color = "white"
         document.getElementById("fetch_reword").style.fontWeight = "600"
 

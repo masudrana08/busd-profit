@@ -65,7 +65,7 @@ export default function Footer() {
             <div className="col-12 text-center">
               <div className="footer-bottom">
                 <div className="content wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
-                  <p className="text">Copyright &copy; 2021. All Rights Reserved By <a href="#">BUSD Profit</a></p>
+                  <p className="text">Copyright &copy; 2021. All Rights Reserved By <a href="#">BNB Profit</a></p>
                 </div>
                 <div className="social-style wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.3s">
                   <a href="#"><i className="fab fa-facebook-f"></i></a>

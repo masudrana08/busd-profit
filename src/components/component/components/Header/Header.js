@@ -56,8 +56,9 @@ export default function Header() {
                             <h3 className="subtitle">Stable & Profitable Yield Farming Dapp With</h3>
                             <h1 className="head">Automated Users Insurance</h1>
                             <p className="text">
-                            From 10% up to 20% Daily ROI
-5 Levels of Referral Rewards
+                            10% Daily for 30 days. <br />
+                            30% Auto Reinvestment on Withdrawal. <br />
+                            5 Level Referral System <br />
                             </p>
 
                             <div className="vide">
@@ -91,7 +92,7 @@ export default function Header() {
                                                 <div className="row">
                                                     <div className="col-md-12 gx-2">
                                                         <div className="form-group">
-                                                            <input type="number" placeholder=" Total BUSD available to invest"
+                                                            <input type="number" placeholder=" Total BNB available to invest"
                                                                 className="form-control" />
                                                         </div>
                                                     </div>
@@ -100,7 +101,7 @@ export default function Header() {
                                                 <div className="row">
                                                     <div className="col-md-6 gx-2">
                                                         <div className="form-group">
-                                                            <input type="number" placeholder="Enter BUSD Amount"
+                                                            <input type="number" placeholder="Enter BNB Amount"
                                                                 className="form-control" />
                                                         </div>
                                                     </div>
@@ -153,7 +154,7 @@ export default function Header() {
                                                 <div className="row">
                                                     <div className="col-md-12 gx-2">
                                                         <div className="form-group">
-                                                            <input type="number" placeholder=" Total BUSD available to invest"
+                                                            <input type="number" placeholder=" Total BNB available to invest"
                                                                 className="form-control" />
                                                         </div>
                                                     </div>
@@ -162,7 +163,7 @@ export default function Header() {
                                                 <div className="row">
                                                     <div className="col-md-6 gx-2">
                                                         <div className="form-group">
-                                                            <input type="number" placeholder="Enter BUSD Amount"
+                                                            <input type="number" placeholder="Enter BNB Amount"
                                                                 className="form-control" />
                                                         </div>
                                                     </div>

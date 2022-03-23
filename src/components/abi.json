@@ -291,7 +291,7 @@
   },
   {
     "inputs": [],
-    "name": "BUSD",
+    "name": "BNB",
     "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
